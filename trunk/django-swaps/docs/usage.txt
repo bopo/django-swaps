@@ -22,7 +22,7 @@ As an end-user
 ---------------
 
 (If you are reading this, you are probably a developer.  
-These instructions are also included for real end-users in the template offers.html.)
+These instructions below are also included for real end-users in the template offers.html.)
 
 Make an offer (of anything you are willing to give), ask for something you want to take in exchange. 
 Could be books, CDs, DVDs, games, work, gear, money - anything.
