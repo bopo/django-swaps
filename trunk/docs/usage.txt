@@ -37,7 +37,7 @@ You can either accept or reject their proposal. Or you can discuss it in swap co
 
 If you accept the proposal, the swap goes into the Accepted swaps page of both participants. 
 
-It is up to the participants to deliver on their promises.  
+It is up to the participants to deliver on their promises.
 
 (Swaps models contain a state called "fulfilled" that could be used to extend the app to cover delivery. But fulfillment code has not yet been developed.)
 
