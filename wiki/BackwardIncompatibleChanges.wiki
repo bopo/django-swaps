@@ -1,3 +1,3 @@
-Backwards incompatible changes for the Swaps project.
+Backwards incompatible changes for the swaps application.
 
 [http://code.google.com/p/django-swaps/source/detail?r=14 r14] If you were one of the few people using swaps from [http://code.google.com/p/django-social-economics/ django-social-economics], you will find here a database change.  The state fields in both Offer and Swap models have been changed from char to integer.  
