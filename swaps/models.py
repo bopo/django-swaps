@@ -169,10 +169,10 @@ class Swap(models.Model):
     conflicted_by = models.ForeignKey('self', blank=True, null=True, related_name='conflicting_swap', verbose_name=_('conflicted by'))
     
     def __unicode__(self):
-        return _('Proposing offer: %s, Responding offer %s') % (
-            self.proposing_offer.short_description,
-            self.responding_offer.short_description
-        )
+        return _('Proposing offer: %(proposing_offer)s, Responding offer %(responding_offer)s') % {
+            'proposing_offer': self.proposing_offer.short_description,
+            'responding_offer': self.responding_offer.short_description,
+        }
         
     def get_absolute_url(self):
         return ('swap', [self.id])
