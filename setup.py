@@ -9,7 +9,7 @@ LONG_DESCRIPTION = """
 setup(
     name='django-swaps',
     version=version,
-    description="django-swaps",
+    description="Django-swaps is a social application that allows users of a Django site to swap anything for anything with each other.",
     long_description=LONG_DESCRIPTION,
     classifiers=[
         "Programming Language :: Python",
@@ -25,5 +25,4 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
-    install_requires=['setuptools'],
 )
