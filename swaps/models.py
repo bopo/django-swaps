@@ -1,17 +1,18 @@
 from datetime import datetime
 
 from django.db import models
+from django.db.models import signals
 from django.contrib.auth.models import User
 from django.db import transaction
 from django.utils.translation import ugettext_lazy as _
+from django.conf import settings
 
 from tagging.fields import TagField
 from tagging.models import Tag
 
-try:
+if "notification" in settings.INSTALLED_APPS
     from notification import models as notification
-    from django.db.models import signals
-except ImportError:
+else:
     notification = None
 
 class Offer(models.Model):
