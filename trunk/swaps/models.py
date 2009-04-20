@@ -10,7 +10,7 @@ from django.conf import settings
 from tagging.fields import TagField
 from tagging.models import Tag
 
-if "notification" in settings.INSTALLED_APPS
+if "notification" in settings.INSTALLED_APPS:
     from notification import models as notification
 else:
     notification = None
